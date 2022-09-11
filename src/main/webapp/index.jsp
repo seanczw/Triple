@@ -45,8 +45,7 @@ if (auth != null) {
 
 						<h2 class="hero-title">Trusted Travel Community</h2>
 
-						<p class="hero-text">I travel not to go anywhere, but to go. I
-							travel for travel's sake the great affair is to move.</p>
+						<p class="hero-text">This is a change</p>
 
 						<div class="btn-group">
 							<a href="#" class="btn btn-primary">Join Us</a> <a href="#"
