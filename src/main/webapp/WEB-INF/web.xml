@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>UserSignUp</display-name>
+    <servlet-name>UserSignUp</servlet-name>
+    <servlet-class>com.tourist.servlet.UserSignUp</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>UserSignIn</display-name>
+    <servlet-name>UserSignIn</servlet-name>
+    <servlet-class>com.tourist.servlet.UserSignIn</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>UserLogout</display-name>
+    <servlet-name>UserLogout</servlet-name>
+    <servlet-class>com.tourist.servlet.UserLogout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserSignUp</servlet-name>
+    <url-pattern>/user-signup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSignIn</servlet-name>
+    <url-pattern>/user-signin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogout</servlet-name>
+    <url-pattern>/user-logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateProfileInfo</display-name>
+    <servlet-name>UpdateProfileInfo</servlet-name>
+    <servlet-class>com.tourist.servlet.UpdateProfileInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateProfileInfo</servlet-name>
+    <url-pattern>/update-profile-info</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdatePassword</display-name>
+    <servlet-name>UpdatePassword</servlet-name>
+    <servlet-class>com.tourist.servlet.UpdatePassword</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdatePassword</servlet-name>
+    <url-pattern>/update-password</url-pattern>
+  </servlet-mapping>
+</web-app>

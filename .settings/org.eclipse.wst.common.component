@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="tourist">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="checker-qual-3.12.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/checker-qual-3.12.0/checker-qual-3.12.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-8.0.30.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsr305-3.0.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsr305-3.0.2/jsr305-3.0.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="error_prone_annotations-2.11.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/error_prone_annotations-2.11.0/error_prone_annotations-2.11.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="guava-31.1-jre.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/guava-31.1-jre/guava-31.1-jre">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="protobuf-java-3.19.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/protobuf-java-3.19.4/protobuf-java-3.19.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="j2objc-annotations-1.3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/j2objc-annotations-1.3/j2objc-annotations-1.3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="failureaccess-1.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/failureaccess-1.0.1/failureaccess-1.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="tourist"/>
+        <property name="java-output-path" value="/tourist/build/classes"/>
+    </wb-module>
+</project-modules>
