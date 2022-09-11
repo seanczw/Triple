@@ -45,7 +45,7 @@ if (auth != null) {
 
 						<h2 class="hero-title">Trusted Travel Community</h2>
 
-						<p class="hero-text">This is a change</p>
+						<p class="hero-text">This is a change 2</p>
 
 						<div class="btn-group">
 							<a href="#" class="btn btn-primary">Join Us</a> <a href="#"
